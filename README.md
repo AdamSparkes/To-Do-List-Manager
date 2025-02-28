@@ -117,11 +117,3 @@ Once the GUI is open, you’ll see the following components:
 - **Task Not Marking Completed**: Ensure the task name in the tasks list matches exactly what was entered. In the code, we split the string to find the description. If you run into issues, you might want to debug the string parsing logic.
 - **No Window Appears**: Double-check your `main` method in `ToDoListGUI` is correct. Also ensure you’re calling `SwingUtilities.invokeLater(...)` to start the GUI on the Event Dispatch Thread.
 
-## License
-
-*(Replace this section with your actual license if applicable, e.g., MIT, Apache 2.0, etc.)*
-
-No User Selected: If you try to add a task or mark a task as completed without selecting a user first, you’ll get a warning dialog. Make sure to select a user from the list.
-Array is Full: By default, the code uses a fixed-size array for users. If you exceed this limit (e.g., 10), you’ll see an error message. Consider using an ArrayList<User> if you need dynamic sizing.
-Task Not Marking Completed: Ensure the task name in the tasks list matches exactly what was entered. In the code, we split the string to find the description. If you run into issues, you might want to debug the string parsing logic.
-No Window Appears: Double-check your main method in ToDoListGUI is correct. Also ensure you’re calling SwingUtilities.invokeLater(...) to start the GUI on the Event Dispatch Thread.
